@@ -1,0 +1,20 @@
+{
+  "name": "auth_tutts",
+  "version": "1.0.0",
+  "description": "auth_practice",
+  "main": "adi.js",
+  "scripts": {
+    "start": "sudo nodemon adi.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aditya76",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.3",
+    "nodemon": "^1.18.1"
+  }
+}
